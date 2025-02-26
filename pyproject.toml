@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ml-guide"
+version = "0.1.0"
+description = "A comprehensive guide to machine learning fundamentals"
+authors = ["Alay Shah"]
+readme = "README.md"
+packages = [{include = "ml_guide"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.1.1"
+numpy = "^2.2.2"
+matplotlib = "^3.10.0"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
